@@ -23,11 +23,14 @@ public class SeleniumHomePage extends Annotations {
 	@FindBy(how=How.LINK_TEXT, using="Checkbox Demo") WebElement checkbox_select;
 	
 	@FindBy(how=How.LINK_TEXT, using="Radio Buttons Demo") WebElement radio_button;
+	
+	@FindBy(how=How.LINK_TEXT, using="JQuery Select dropdown") WebElement jqueryDropDown;
+
 
 
 
 	
-
+	
 
 	public DropDownSelectPage selectDropDown()
 	{
@@ -57,8 +60,14 @@ public class SeleniumHomePage extends Annotations {
 		click(input_DropDown);
 		click(radio_button);
 		return new RadioButtonPage();
+	}
+	
+	public JqueryDropDownPage jqueryDropdown()
+	{
+		click(input_DropDown);
+		click(jqueryDropDown);
+		return new JqueryDropDownPage();
 
 
-		
 	}
 }

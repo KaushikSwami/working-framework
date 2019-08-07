@@ -506,6 +506,18 @@ public class SeleniumBase extends Reporter implements Browser, Element{
 
 		
 	}
+	@Override
+	public void type(WebElement ele, String data) {
+
+		try {
+			ele.clear();
+			ele.sendKeys(data,Keys.ENTER);
+			reportStep("The Data :"+data+" entered Successfully", "pass");
+		} catch (ElementNotInteractableException e) {
+			reportStep("The Element "+ele+" is not Interactable", "fail");
+			throw new RuntimeException();
+		}
+	}
 	
 
 }

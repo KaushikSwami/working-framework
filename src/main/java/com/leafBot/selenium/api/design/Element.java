@@ -190,6 +190,8 @@ public interface Element {
 	
 	public void multiclick(List<WebElement> ele) throws InterruptedException;
 	
+	public void type(WebElement ele,String data);
+	
 	
 }
 

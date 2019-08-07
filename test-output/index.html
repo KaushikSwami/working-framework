@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -118,6 +118,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.leafBot.testcases.TC003_multi_dropdown" hash-for-method="multi_dropDown">multi_dropDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.leafBot.testcases.TC006_JqueryDropDown" hash-for-method="query_dropdown">query_dropdown</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -170,14 +175,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.leafBot.testcases.TC001_SelectDropDown</span>
+              <span class="class-name">com.leafBot.testcases.TC006_JqueryDropDown</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="dropDown">
-                  </a> <!-- dropDown -->
-                  <span class="method-name">dropDown</span>
+                  <a name="query_dropdown">
+                  </a> <!-- query_dropdown -->
+                  <span class="method-name">query_dropdown</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -194,6 +199,21 @@
                   </a> <!-- Input_form(venkatesh, swaminathan) -->
                   <span class="method-name">Input_form</span>
                   <span class="parameters">(venkatesh, swaminathan)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.leafBot.testcases.TC001_SelectDropDown</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dropDown">
+                  </a> <!-- dropDown -->
+                  <span class="method-name">dropDown</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -230,6 +250,7 @@
       &lt;class name=&quot;com.leafBot.testcases.TC003_multi_dropdown&quot;/&gt;
       &lt;class name=&quot;com.leafBot.testcases.TC004_CheckBoxSelect&quot;/&gt;
       &lt;class name=&quot;com.leafBot.testcases.TC005_Radio_Button&quot;/&gt;
+      &lt;class name=&quot;com.leafBot.testcases.TC006_JqueryDropDown&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -243,7 +264,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (5 classes)</span>
+                <span class="test-name">Test (6 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -269,32 +290,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'radioButton')
 data.setCell(0, 2, 'com.leafBot.testcases.TC005_Radio_Button')
-data.setCell(0, 3, 17062);
+data.setCell(0, 3, 17305);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'checkbox')
 data.setCell(1, 2, 'com.leafBot.testcases.TC004_CheckBoxSelect')
-data.setCell(1, 3, 10945);
+data.setCell(1, 3, 10901);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Input_form')
-data.setCell(2, 2, 'com.leafBot.testcases.TC002_InputForm')
-data.setCell(2, 3, 4926);
+data.setCell(2, 1, 'query_dropdown')
+data.setCell(2, 2, 'com.leafBot.testcases.TC006_JqueryDropDown')
+data.setCell(2, 3, 5326);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'multi_dropDown')
-data.setCell(3, 2, 'com.leafBot.testcases.TC003_multi_dropdown')
-data.setCell(3, 3, 3839);
+data.setCell(3, 1, 'Input_form')
+data.setCell(3, 2, 'com.leafBot.testcases.TC002_InputForm')
+data.setCell(3, 3, 4549);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'dropDown')
-data.setCell(4, 2, 'com.leafBot.testcases.TC001_SelectDropDown')
-data.setCell(4, 3, 3067);
+data.setCell(4, 1, 'multi_dropDown')
+data.setCell(4, 2, 'com.leafBot.testcases.TC003_multi_dropdown')
+data.setCell(4, 3, 3793);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'dropDown')
+data.setCell(5, 2, 'com.leafBot.testcases.TC001_SelectDropDown')
+data.setCell(5, 3, 3305);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 39 seconds</span>
+              <span class="suite-total-time">Total running time: 45 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -309,7 +334,7 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">8 ignored methods</span>
+            <span class="header-content">10 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
@@ -323,6 +348,15 @@ return data;
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.leafBot.testcases.TC003_multi_dropdown</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">stopReport</span>
+                <br/>
+                <span class="ignored-method-name">startReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.leafBot.testcases.TC006_JqueryDropDown</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">stopReport</span>
                 <br/>
@@ -363,189 +397,226 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">setData</span>
-                <span class="method-start">225 ms</span>
+                <span class="method-start">218 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.leafBot.testcases.TC002_InputForm</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setData</span>
-                <span class="method-start">227 ms</span>
+                <span class="method-start">218 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.leafBot.testcases.TC003_multi_dropdown</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setData</span>
-                <span class="method-start">228 ms</span>
+                <span class="method-start">219 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.leafBot.testcases.TC004_CheckBoxSelect</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setData</span>
-                <span class="method-start">228 ms</span>
+                <span class="method-start">219 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.leafBot.testcases.TC005_Radio_Button</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setData</span>
-                <span class="method-start">228 ms</span>
+                <span class="method-start">219 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.leafBot.testcases.TC006_JqueryDropDown</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setData</span>
+                <span class="method-start">219 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.leafBot.testcases.TC001_SelectDropDown</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUpClass</span>
-                <span class="method-start">237 ms</span>
+                <span class="method-start">232 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">report</span>
-                <span class="method-start">376 ms</span>
+                <span class="method-start">381 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">408 ms</span>
+                <span class="method-start">420 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">dropDown</span>
-                <span class="method-start">8004 ms</span>
+                <span class="method-start">7992 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">11074 ms</span>
+                <span class="method-start">11301 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">14190 ms</span>
+                <span class="method-start">14653 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.leafBot.testcases.TC002_InputForm</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUpClass</span>
-                <span class="method-start">14203 ms</span>
+                <span class="method-start">14663 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">report</span>
-                <span class="method-start">14205 ms</span>
+                <span class="method-start">14665 ms</span>
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.leafBot.testcases.TC003_multi_dropdown</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUpClass</span>
-                <span class="method-start">14215 ms</span>
+                <span class="method-start">14668 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">report</span>
-                <span class="method-start">14216 ms</span>
+                <span class="method-start">14669 ms</span>
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.leafBot.testcases.TC004_CheckBoxSelect</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUpClass</span>
-                <span class="method-start">14220 ms</span>
+                <span class="method-start">14672 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">report</span>
-                <span class="method-start">14220 ms</span>
+                <span class="method-start">14675 ms</span>
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.leafBot.testcases.TC005_Radio_Button</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUpClass</span>
-                <span class="method-start">14229 ms</span>
+                <span class="method-start">14682 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">report</span>
-                <span class="method-start">14232 ms</span>
+                <span class="method-start">14682 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.leafBot.testcases.TC006_JqueryDropDown</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">14692 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">report</span>
+                <span class="method-start">14693 ms</span>
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.leafBot.testcases.TC002_InputForm</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">15103 ms</span>
+                <span class="method-start">15552 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Input_form(venkatesh, swaminathan)</span>
-                <span class="method-start">20367 ms</span>
+                <span class="method-start">21115 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">25294 ms</span>
+                <span class="method-start">25666 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">28407 ms</span>
+                <span class="method-start">29016 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.leafBot.testcases.TC003_multi_dropdown</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">28411 ms</span>
+                <span class="method-start">29019 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">multi_dropDown</span>
-                <span class="method-start">33730 ms</span>
+                <span class="method-start">34477 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">37571 ms</span>
+                <span class="method-start">38271 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">40768 ms</span>
+                <span class="method-start">41440 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.leafBot.testcases.TC004_CheckBoxSelect</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">40770 ms</span>
+                <span class="method-start">41445 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkbox</span>
-                <span class="method-start">46019 ms</span>
+                <span class="method-start">47098 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">56966 ms</span>
+                <span class="method-start">58001 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">60156 ms</span>
+                <span class="method-start">61358 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.leafBot.testcases.TC005_Radio_Button</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">60157 ms</span>
+                <span class="method-start">61359 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">radioButton</span>
-                <span class="method-start">65550 ms</span>
+                <span class="method-start">66896 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">82613 ms</span>
+                <span class="method-start">84202 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">85803 ms</span>
+                <span class="method-start">87538 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.leafBot.testcases.TC006_JqueryDropDown</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">87538 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">query_dropdown</span>
+                <span class="method-start">93727 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">99054 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">102197 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.leafBot.testcases.TC001_SelectDropDown</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">stopReport</span>
-                <span class="method-start">85860 ms</span>
+                <span class="method-start">102327 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
