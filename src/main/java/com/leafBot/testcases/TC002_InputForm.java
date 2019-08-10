@@ -19,9 +19,9 @@ public class TC002_InputForm extends Annotations {
 	
 	@Test(priority=1,dataProvider="fetchData")
 	
-	public void Input_form(String fName,String lName)
+	public void Input_form(String fName,String lName,String eMail)
 	{
-		new SeleniumHomePage().select_input_form().enterFirstName(fName).enterLastName(lName);
+		new SeleniumHomePage().select_input_form().enterFirstName(fName).enterLastName(lName).enterEmail(eMail);
 	}
 
 }

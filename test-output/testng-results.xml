@@ -1,219 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="10" total="16" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="101983" started-at="2019-08-07T13:35:31Z" finished-at="2019-08-07T13:37:13Z">
+  <suite name="Suite" duration-ms="14290" started-at="2019-08-10T13:49:35Z" finished-at="2019-08-10T13:49:49Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@13a5fe33]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.leafBot.testcases.TC002_InputForm@3108bc]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.leafBot.testcases.TC003_multi_dropdown@370736d9]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.leafBot.testcases.TC004_CheckBoxSelect@5f9d02cb]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.leafBot.testcases.TC005_Radio_Button@63753b6d]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.leafBot.testcases.TC006_JqueryDropDown@6b09bb57]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@5abca1e0]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="101983" started-at="2019-08-07T13:35:31Z" finished-at="2019-08-07T13:37:13Z">
+    <test name="Test" duration-ms="14290" started-at="2019-08-10T13:49:35Z" finished-at="2019-08-10T13:49:49Z">
       <class name="com.leafBot.testcases.TC001_SelectDropDown">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@13a5fe33]" name="startReport" is-config="true" duration-ms="215" started-at="2019-08-07T13:35:31Z" finished-at="2019-08-07T13:35:31Z">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@5abca1e0]" name="startReport" is-config="true" duration-ms="639" started-at="2019-08-10T13:49:34Z" finished-at="2019-08-10T13:49:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="setData()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@13a5fe33]" name="setData" is-config="true" duration-ms="0" started-at="2019-08-07T13:35:31Z" finished-at="2019-08-07T13:35:31Z">
+        <test-method status="PASS" signature="setData()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@5abca1e0]" name="setData" is-config="true" duration-ms="0" started-at="2019-08-10T13:49:35Z" finished-at="2019-08-10T13:49:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setData -->
-        <test-method status="PASS" signature="setData()[pri:0, instance:com.leafBot.testcases.TC002_InputForm@3108bc]" name="setData" is-config="true" duration-ms="1" started-at="2019-08-07T13:35:31Z" finished-at="2019-08-07T13:35:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setData -->
-        <test-method status="PASS" signature="setData()[pri:0, instance:com.leafBot.testcases.TC004_CheckBoxSelect@5f9d02cb]" name="setData" is-config="true" duration-ms="0" started-at="2019-08-07T13:35:31Z" finished-at="2019-08-07T13:35:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setData -->
-        <test-method status="PASS" signature="setData()[pri:0, instance:com.leafBot.testcases.TC003_multi_dropdown@370736d9]" name="setData" is-config="true" duration-ms="0" started-at="2019-08-07T13:35:31Z" finished-at="2019-08-07T13:35:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setData -->
-        <test-method status="PASS" signature="setData()[pri:0, instance:com.leafBot.testcases.TC006_JqueryDropDown@6b09bb57]" name="setData" is-config="true" duration-ms="1" started-at="2019-08-07T13:35:31Z" finished-at="2019-08-07T13:35:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setData -->
-        <test-method status="PASS" signature="setData()[pri:0, instance:com.leafBot.testcases.TC005_Radio_Button@63753b6d]" name="setData" is-config="true" duration-ms="0" started-at="2019-08-07T13:35:31Z" finished-at="2019-08-07T13:35:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setData -->
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@13a5fe33]" name="setUpClass" is-config="true" duration-ms="149" started-at="2019-08-07T13:35:31Z" finished-at="2019-08-07T13:35:31Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@5abca1e0]" name="setUpClass" is-config="true" duration-ms="157" started-at="2019-08-10T13:49:35Z" finished-at="2019-08-10T13:49:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="report()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@13a5fe33]" name="report" is-config="true" duration-ms="14" started-at="2019-08-07T13:35:31Z" finished-at="2019-08-07T13:35:31Z">
+        <test-method status="PASS" signature="report()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@5abca1e0]" name="report" is-config="true" duration-ms="12" started-at="2019-08-10T13:49:35Z" finished-at="2019-08-10T13:49:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@13a5fe33]" name="beforeMethod" is-config="true" duration-ms="7572" started-at="2019-08-07T13:35:31Z" finished-at="2019-08-07T13:35:39Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@5abca1e0]" name="beforeMethod" is-config="true" duration-ms="7785" started-at="2019-08-10T13:49:35Z" finished-at="2019-08-10T13:49:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="dropDown()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@13a5fe33]" name="dropDown" duration-ms="3305" started-at="2019-08-07T13:35:39Z" finished-at="2019-08-07T13:35:42Z">
+        <test-method status="PASS" signature="dropDown()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@5abca1e0]" name="dropDown" duration-ms="3087" started-at="2019-08-10T13:49:43Z" finished-at="2019-08-10T13:49:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dropDown -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@13a5fe33]" name="afterMethod" is-config="true" duration-ms="3352" started-at="2019-08-07T13:35:42Z" finished-at="2019-08-07T13:35:45Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@5abca1e0]" name="afterMethod" is-config="true" duration-ms="3188" started-at="2019-08-10T13:49:46Z" finished-at="2019-08-10T13:49:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@13a5fe33]" name="tearDownClass" is-config="true" duration-ms="9" started-at="2019-08-07T13:35:45Z" finished-at="2019-08-07T13:35:45Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@5abca1e0]" name="tearDownClass" is-config="true" duration-ms="11" started-at="2019-08-10T13:49:49Z" finished-at="2019-08-10T13:49:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="stopReport()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@13a5fe33]" name="stopReport" is-config="true" duration-ms="495" started-at="2019-08-07T13:37:13Z" finished-at="2019-08-07T13:37:14Z">
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@5abca1e0]" name="stopReport" is-config="true" duration-ms="498" started-at="2019-08-10T13:49:49Z" finished-at="2019-08-10T13:49:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopReport -->
       </class> <!-- com.leafBot.testcases.TC001_SelectDropDown -->
-      <class name="com.leafBot.testcases.TC004_CheckBoxSelect">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.leafBot.testcases.TC004_CheckBoxSelect@5f9d02cb]" name="setUpClass" is-config="true" duration-ms="2" started-at="2019-08-07T13:35:45Z" finished-at="2019-08-07T13:35:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="report()[pri:0, instance:com.leafBot.testcases.TC004_CheckBoxSelect@5f9d02cb]" name="report" is-config="true" duration-ms="1" started-at="2019-08-07T13:35:45Z" finished-at="2019-08-07T13:35:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- report -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leafBot.testcases.TC004_CheckBoxSelect@5f9d02cb]" name="beforeMethod" is-config="true" duration-ms="5653" started-at="2019-08-07T13:36:12Z" finished-at="2019-08-07T13:36:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkbox()[pri:3, instance:com.leafBot.testcases.TC004_CheckBoxSelect@5f9d02cb]" name="checkbox" duration-ms="10901" started-at="2019-08-07T13:36:18Z" finished-at="2019-08-07T13:36:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkbox -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.leafBot.testcases.TC004_CheckBoxSelect@5f9d02cb]" name="afterMethod" is-config="true" duration-ms="3356" started-at="2019-08-07T13:36:29Z" finished-at="2019-08-07T13:36:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.leafBot.testcases.TC004_CheckBoxSelect@5f9d02cb]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2019-08-07T13:36:32Z" finished-at="2019-08-07T13:36:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- com.leafBot.testcases.TC004_CheckBoxSelect -->
-      <class name="com.leafBot.testcases.TC002_InputForm">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.leafBot.testcases.TC002_InputForm@3108bc]" name="setUpClass" is-config="true" duration-ms="2" started-at="2019-08-07T13:35:45Z" finished-at="2019-08-07T13:35:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="report()[pri:0, instance:com.leafBot.testcases.TC002_InputForm@3108bc]" name="report" is-config="true" duration-ms="0" started-at="2019-08-07T13:35:45Z" finished-at="2019-08-07T13:35:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- report -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leafBot.testcases.TC002_InputForm@3108bc]" name="beforeMethod" is-config="true" duration-ms="5563" started-at="2019-08-07T13:35:46Z" finished-at="2019-08-07T13:35:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Input_form(java.lang.String, java.lang.String)[pri:1, instance:com.leafBot.testcases.TC002_InputForm@3108bc]" name="Input_form" duration-ms="4549" started-at="2019-08-07T13:35:52Z" data-provider="fetchData" finished-at="2019-08-07T13:35:56Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[venkatesh]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[swaminathan]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Input_form -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.leafBot.testcases.TC002_InputForm@3108bc]" name="afterMethod" is-config="true" duration-ms="3349" started-at="2019-08-07T13:35:56Z" finished-at="2019-08-07T13:36:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.leafBot.testcases.TC002_InputForm@3108bc]" name="tearDownClass" is-config="true" duration-ms="2" started-at="2019-08-07T13:36:00Z" finished-at="2019-08-07T13:36:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- com.leafBot.testcases.TC002_InputForm -->
-      <class name="com.leafBot.testcases.TC005_Radio_Button">
-        <test-method status="PASS" signature="report()[pri:0, instance:com.leafBot.testcases.TC005_Radio_Button@63753b6d]" name="report" is-config="true" duration-ms="6" started-at="2019-08-07T13:35:45Z" finished-at="2019-08-07T13:35:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- report -->
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.leafBot.testcases.TC005_Radio_Button@63753b6d]" name="setUpClass" is-config="true" duration-ms="0" started-at="2019-08-07T13:35:45Z" finished-at="2019-08-07T13:35:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leafBot.testcases.TC005_Radio_Button@63753b6d]" name="beforeMethod" is-config="true" duration-ms="5537" started-at="2019-08-07T13:36:32Z" finished-at="2019-08-07T13:36:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="radioButton()[pri:4, instance:com.leafBot.testcases.TC005_Radio_Button@63753b6d]" name="radioButton" duration-ms="17305" started-at="2019-08-07T13:36:38Z" finished-at="2019-08-07T13:36:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- radioButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.leafBot.testcases.TC005_Radio_Button@63753b6d]" name="afterMethod" is-config="true" duration-ms="3335" started-at="2019-08-07T13:36:55Z" finished-at="2019-08-07T13:36:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.leafBot.testcases.TC005_Radio_Button@63753b6d]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2019-08-07T13:36:58Z" finished-at="2019-08-07T13:36:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- com.leafBot.testcases.TC005_Radio_Button -->
-      <class name="com.leafBot.testcases.TC003_multi_dropdown">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.leafBot.testcases.TC003_multi_dropdown@370736d9]" name="setUpClass" is-config="true" duration-ms="1" started-at="2019-08-07T13:35:45Z" finished-at="2019-08-07T13:35:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="report()[pri:0, instance:com.leafBot.testcases.TC003_multi_dropdown@370736d9]" name="report" is-config="true" duration-ms="1" started-at="2019-08-07T13:35:45Z" finished-at="2019-08-07T13:35:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- report -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leafBot.testcases.TC003_multi_dropdown@370736d9]" name="beforeMethod" is-config="true" duration-ms="5457" started-at="2019-08-07T13:36:00Z" finished-at="2019-08-07T13:36:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="multi_dropDown()[pri:2, instance:com.leafBot.testcases.TC003_multi_dropdown@370736d9]" name="multi_dropDown" duration-ms="3793" started-at="2019-08-07T13:36:05Z" finished-at="2019-08-07T13:36:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- multi_dropDown -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.leafBot.testcases.TC003_multi_dropdown@370736d9]" name="afterMethod" is-config="true" duration-ms="3168" started-at="2019-08-07T13:36:09Z" finished-at="2019-08-07T13:36:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.leafBot.testcases.TC003_multi_dropdown@370736d9]" name="tearDownClass" is-config="true" duration-ms="3" started-at="2019-08-07T13:36:12Z" finished-at="2019-08-07T13:36:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- com.leafBot.testcases.TC003_multi_dropdown -->
-      <class name="com.leafBot.testcases.TC006_JqueryDropDown">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.leafBot.testcases.TC006_JqueryDropDown@6b09bb57]" name="setUpClass" is-config="true" duration-ms="1" started-at="2019-08-07T13:35:45Z" finished-at="2019-08-07T13:35:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="report()[pri:0, instance:com.leafBot.testcases.TC006_JqueryDropDown@6b09bb57]" name="report" is-config="true" duration-ms="0" started-at="2019-08-07T13:35:45Z" finished-at="2019-08-07T13:35:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- report -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leafBot.testcases.TC006_JqueryDropDown@6b09bb57]" name="beforeMethod" is-config="true" duration-ms="6189" started-at="2019-08-07T13:36:58Z" finished-at="2019-08-07T13:37:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="query_dropdown()[pri:5, instance:com.leafBot.testcases.TC006_JqueryDropDown@6b09bb57]" name="query_dropdown" duration-ms="5326" started-at="2019-08-07T13:37:04Z" finished-at="2019-08-07T13:37:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- query_dropdown -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.leafBot.testcases.TC006_JqueryDropDown@6b09bb57]" name="afterMethod" is-config="true" duration-ms="3143" started-at="2019-08-07T13:37:10Z" finished-at="2019-08-07T13:37:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.leafBot.testcases.TC006_JqueryDropDown@6b09bb57]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2019-08-07T13:37:13Z" finished-at="2019-08-07T13:37:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- com.leafBot.testcases.TC006_JqueryDropDown -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

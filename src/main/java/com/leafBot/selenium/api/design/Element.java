@@ -192,6 +192,8 @@ public interface Element {
 	
 	public void type(WebElement ele,String data);
 	
+	public void get_text(WebElement ele);
+	
 	
 }
 

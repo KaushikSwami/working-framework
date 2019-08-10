@@ -20,6 +20,8 @@ public class DropDownSelectPage extends Annotations{
 	public DropDownSelectPage select_dropDown()
 	{
 		 selectDropDownUsingText(drop_down_element,"Thursday");
+		 verifySelected(drop_down_element);
+		 get_text(drop_down_element);
 		 return this;
 	}
 	

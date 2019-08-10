@@ -518,6 +518,12 @@ public class SeleniumBase extends Reporter implements Browser, Element{
 			throw new RuntimeException();
 		}
 	}
+	@Override
+	public void get_text(WebElement ele) {
+
+		String text = ele.getText();
+		System.out.println("the element " + ele + "is clicked and the text is : " + text);
+	}
 	
 
 }

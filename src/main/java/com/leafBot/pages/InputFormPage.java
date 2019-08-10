@@ -16,6 +16,8 @@ public class InputFormPage extends Annotations {
 	
 	@FindBy(how=How.NAME, using="first_name") WebElement FirstName;
 	@FindBy(how=How.NAME, using="last_name") WebElement LastName;
+	@FindBy(how=How.NAME, using="email") WebElement email;
+
 
 
 	
@@ -28,6 +30,11 @@ public class InputFormPage extends Annotations {
 	public InputFormPage enterLastName(String lName)
 	{
 		clearAndType(LastName,lName);
+		return this;
+	}
+	public InputFormPage enterEmail(String eMail)
+	{
+		clearAndType(email,eMail);
 		return this;
 	}
 
